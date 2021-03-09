@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/allNewsFragment">
+
+    <fragment
+        android:id="@+id/allNewsFragment"
+        android:name="com.example.reporter.ui.allnews.AllNewsFragment"
+        android:label="AllNewsFragment" >
+        <action
+            android:id="@+id/action_allNewsFragment_to_playerHostFragment"
+            app:destination="@id/playerHostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerHostFragment"
+        android:name="com.example.reporter.ui.playerhost.PlayerHostFragment"
+        android:label="PlayerHostFragment" />
+</navigation>
