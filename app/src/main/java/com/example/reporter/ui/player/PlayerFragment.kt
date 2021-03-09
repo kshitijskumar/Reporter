@@ -1,6 +1,7 @@
 package com.example.reporter.ui.player
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,5 +19,10 @@ class PlayerFragment : Fragment() {
     ): View? {
         binding = FragmentPlayerBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
     }
 }
