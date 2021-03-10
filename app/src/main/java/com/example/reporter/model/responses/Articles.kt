@@ -10,5 +10,5 @@ data class Articles(
     val url : String? = null,
     val urlToImage: String? = null
 ){
-    val audioUrl = "$AUDIO_BASE_URL?key=$AUDIO_API&hl=en-in&v=Ajit&c=MP3&f=16khz_16bit_stereo&src=$description"
+    val audioUrl = "$AUDIO_BASE_URL?key=$AUDIO_API&hl=en-in&v=Ajit&c=MP3&f=16khz_16bit_stereo&src=Headline. $title.$description"
 }

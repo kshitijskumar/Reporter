@@ -11,4 +11,6 @@ object Constants {
     const val NEWS_API = "2b49ce3e318e4547aedeb8c6b3aca021"
 
     const val TOP_HEADLINES = "top-headlines"
+
+    const val PENDING_INTENT_REQUEST_CODE = 0
 }
