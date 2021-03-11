@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Reporter</string>
+    <string-array name="categories">
+        <item>Science</item>
+        <item>Business</item>
+        <item>Health</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+    </string-array>
 </resources>
